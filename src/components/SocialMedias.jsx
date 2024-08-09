@@ -14,8 +14,13 @@ function SocialMedias() {
         {
             images.map((image, index) => {
                 return (
-                    <img key={index} src={image} alt="" className="w-[81px] h-[81px] "/>
-                )
+                  <img
+                    key={index}
+                    src={image}
+                    alt=""
+                    className="w-[81px] h-[81px] transform hover:scale-125"
+                  />
+                );
             })
         }
     </div>
